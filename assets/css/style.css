@@ -1,0 +1,63 @@
+
+
+  body::after {
+    content: "";
+    background: url(/assets/img/Nice-couch.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(238, 184, 184);
+  
+  }
+
+/* Navbar start*/
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background: linear-gradient(90deg, rgb(233, 134, 134) 0%, rgb(255, 255, 255) 100%);
+opacity: 0.8;
+margin-top: 300;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    transform: scale(1.2);
+    
+
+}
+/* Navbar end */
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(236, 117, 117);
+    text-align: center;
+    }
+
+    h2 {
+        font-family: 'Dancing Script', cursive;
+        color: rgb(236, 117, 117);
+        text-align: center;
+
+    }
+
+
+    
