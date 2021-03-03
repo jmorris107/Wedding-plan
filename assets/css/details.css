@@ -1,0 +1,117 @@
+
+body {
+    content: "";
+  background: url(/assets/img/swing.jpg);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* body::after {
+  content: "";
+  background: url(/assets/img/swing.jpg);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+} */
+
+/* Navbar start*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 200;
+    margin-bottom: 200;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    
+
+}
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-shadow: black;
+    text-decoration: none;
+    margin-top: 30;
+    font-size: 25px;
+}
+li a:hover {
+    transform: scale(1.2);
+    color: rgb(255, 136, 107);
+    
+
+}
+
+    /* Navbar end */
+    
+    h1 {
+        font-family: 'Dancing Script', cursive;
+        color: #fff;
+        text-align: center;
+        margin-top: 50;
+        margin-bottom: 70;
+        text-shadow: 2px 2px 4px #000000;
+        }
+
+        h2 {
+        font-family: 'Dancing Script', cursive;
+        color: #fff;
+        text-align: center;
+        text-shadow: 2px 2px 4px #000000;
+        padding: 10;
+        }
+
+        img
+        {
+        border-radius: 20%;
+        /* border: 1px solid #ddd; */
+        padding: 5px;
+        width: 200;
+        height: 200;
+        float: left;
+        padding: 30;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300;
+          }
+
+        p {
+            font-family: 'Shippori Mincho B1', serif;
+            color: #fff;
+            text-align: center;
+            text-shadow: 2px 2px 4px #000000;
+
+        }
+
+        .address {
+            text-align: left;
+
+        }
+
+        .address:hover {
+            transform: scale(1.1);
+            color: rgb(255, 136, 107);
+
+        }
+        
+    
