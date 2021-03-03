@@ -224,4 +224,17 @@ h1 {
     100% {transform: scale(1.0);}
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to bottom right,rgb(228, 220, 179), rgb(94, 65, 46));
+  color: white;
+  text-align: left;
+  font-family: 'Shippori Mincho B1', serif;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 20;
+}
+
       
