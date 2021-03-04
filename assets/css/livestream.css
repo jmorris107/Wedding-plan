@@ -1,6 +1,6 @@
 body::after {
     content: "";
-    background: url(/assets/img/swing.jpg);
+    background: url(/assets/img/vine.jpg);
     top: 0;
     left: 0;
     bottom: 0;
@@ -10,6 +10,7 @@ body::after {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
   
   }
 

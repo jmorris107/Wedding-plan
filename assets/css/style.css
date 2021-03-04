@@ -99,9 +99,11 @@ h1 {
     align-items: center;
     min-height: 100vh;
     /* background: rgb(253, 179, 201); */
-    background: url(/assets/img/swing.jpg);
+    background: url(/assets/img/vine.jpg);
     /* background: #212121; */
+     background-size: cover;
     font-family: sans-serif;
+    background-position: center;
   }
   .box{
     width: 1200px;
@@ -229,12 +231,13 @@ h1 {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(to bottom right,rgb(228, 220, 179), rgb(94, 65, 46));
+  background: linear-gradient(to bottom right ,rgb(94, 65, 46),rgb(228, 220, 179));
   color: white;
   text-align: left;
   font-family: 'Shippori Mincho B1', serif;
   text-shadow: 2px 2px 4px #000000;
   padding: 20;
 }
+
 
       
