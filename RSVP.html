@@ -1,63 +1,77 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Passport Authentication</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="stylesheets/style.css" rel="stylesheet">
-</head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSVP</title>
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/RSVP.css">
+</head>
 <body>
-  <!-- <form action="/jenniferinbaranoseidou@gmail.com" method="post">
+
+  <h1>RSVP</h1>
+
+  <h2>Registration Form</h2>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" >Home</a>
+    <a href="details.html">Details</a>
+    <a href="location.html">Location</a>
+    <a href="photos.html">Photos</a>
+    <a href="RSVP.html" class="active">RSVP</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+
+ 
+  <form enctype="multipart/form-data" method="post" action="https://docs.google.com/document/d/19whYAngittV-ZRy1x34w7OLd-meQpzt44qrPlU8PlcI/edit">
     <ul>
      <li>
-       <label for="name"></label>
-       <input type="text" id="name" name="user_name" />
+       <label for="name">First Name:</label>
+       <input type="text" id="name" name="first_name" size="30" required/><br><br>
      </li>
-     <li>
+     
+       <label for="name">Last Name:</label>
+       <input type="text" id="name" name="last_name" size="30" required/><br><br>
+     </li>
+
+     <!-- <li>
        <label for="mail">E-mail:</label>
-       <input type="email" id="mail" name="user_email" />
-     </li>
-     <li>
-       <label for="msg">Message:</label>
-       <textarea id="msg" name="user_message"></textarea>
+       <input type="email" id="mail" name="user_email" size="50" required/><br><br>
      </li> -->
 
-     <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-        </div>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <h2>Sign Up Form</h2>
-          <form class="signup">
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="email-input" placeholder="Email">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="password-input" placeholder="Password">
-            </div>
-            <div style="display: none" id="alert" class="alert alert-danger" role="alert">
-              <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-              <span class="sr-only">Error:</span> <span class="msg"></span>
-            </div>
-            <button type="submit" class="btn btn-default">Sign Up</button>
-          </form>
-          <br />
-          <p>Or log in <a href="/login">here</a></p>
-        </div>
-      </div>
+     <div class="required">
+      <label for="email">E-mail Address:</label><input type='email' id='p1' size="50"><br><br>
+      <label for="email">Confirm E-mail:</label><input type='email' size="50"
+        onfocus="validateMail(document.getElementById('p1'), this);" 
+        oninput="validateMail(document.getElementById('p1'), this);">
     </div>
+      <br><br>
+     <li>
+       <label for="msg">Message:</label>
+       <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Not required. Please let us know if you have any question."></textarea><br>
+     </li>
+     <br><br>
+     <input type="submit" value="Submit"><input type="reset" value="Clear">
+     </ul>
+     </form>
+
+     
+
+
+     <p>We will email you further notice especially those who perticipates</p>
+     <p> our wedding ceremony via Live Stream. So, please submit your name </p>
+     <p> and email address so we can inform you.</p>
+
+    
   
-
 </body>
-
+<script src="script.js"></script>
 </html>

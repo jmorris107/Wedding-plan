@@ -21,6 +21,7 @@ body {
   
 
 .topnav {
+    margin-bottom: 160;
     overflow: hidden;
     float: right;
     margin-top: 120;
@@ -117,6 +118,8 @@ body {
       text-align: center;
       /* margin-top: 50;
       margin-left: 200; */
+      margin-bottom: 300;
+      float: right;
       float: top;
       text-shadow: 2px 2px 4px #000000;
       letter-spacing: 5px;

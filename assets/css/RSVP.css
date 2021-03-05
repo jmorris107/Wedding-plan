@@ -121,15 +121,58 @@ li a:hover {
         h2 {
             font-family: 'Shippori Mincho B1', serif;
             color: #fff;
-            text-align: center;
+            text-align: left;
             text-shadow: 2px 2px 4px #000000;
+            margin-left: 100;
 
         }
+
+        form {
+          font-family: 'Shippori Mincho B1', serif;
+          color: #fff;
+          text-shadow: 2px 2px 4px #000000;
+          
+        }
+
+        ul {
+          list-style-type: none;
+          
+      }
+
+      form {
+        padding: 20;
+        text-align: left;
+      }
+
+      input {
+        background-color: rgba(209, 211, 209, 0.534);
+      }
+      
+     
+        input:hover {
+          background: #fff;
+
+          box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.8);
+        }
+
+        textarea {
+          background-color: rgba(209, 211, 209, 0.534);
+        }
+
+        textarea:hover {
+          background: #fff;
+
+          box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.8);
+        }
+      
+
+
         p {
             font-family: 'Shippori Mincho B1', serif;
             color: #fff;
             text-align: center;
             text-shadow: 2px 2px 4px #000000;
+            margin-right: 250;
         }
 
         nav {
