@@ -16,7 +16,62 @@ body::after {
 
 /* Navbar start*/
 
-ul {
+.topnav {
+  overflow: hidden;
+  float: right;
+  margin-top: 120;
+  /* background-color: #333; */
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  /* background-color: #ddd;
+  color: black; */
+  transform: scale(1.3);
+}
+
+.topnav a.active {
+  /* background-color: #4CAF50; */
+  transform: scale(1.5);
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -42,12 +97,21 @@ li a:hover {
     color: rgb(255, 136, 107);
     
 
-}
+} */
 
     /* Navbar end */
+
+    .container
+    {
+      background-color: rgba(0, 0, 0, 0.438);
+      margin-right: 600;
+      margin-left: 400;
+
+    }
     
     h1 {
-        font-family: 'Dancing Script', cursive;
+        /* font-family: 'Dancing Script', cursive; */
+        font-family: 'Abhaya Libre';
         color: #fff;
         text-align: center;
         margin-top: 50;
@@ -86,7 +150,22 @@ li a:hover {
             padding: 30;
             border-radius: 50%;
         }
-        .fa {
+        .fas {
+            margin-left: 400;
             text-shadow: 2px 2px 4px #000000;
             color: rgb(255, 136, 107);
         }
+
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          /* background:  */
+          color: white;
+          text-align: left;
+          font-family: 'Shippori Mincho B1', serif;
+          text-shadow: 2px 2px 4px #000000;
+          padding: 20;
+        }
+        
